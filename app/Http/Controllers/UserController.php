@@ -62,6 +62,7 @@ class UserController extends Controller
 
 
         ]);
+        //use
         $user->save();  
         return redirect('/users')->with('success', 'user created');
 
